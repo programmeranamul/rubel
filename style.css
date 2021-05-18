@@ -1,22 +1,44 @@
-.icons {
+.main-part{
+  display: flex;
 }
 .title {
   font-size: 17px;
   font-weight: 600;
   margin: 0;
 }
-.padding-20 {
-  padding: 20px;
+.card {
+  padding: 18px 13px 1px !important;
 }
-.description {
+.description, .valign-wrapper div>p:first-child {
   font-size: 16px;
-  margin: 7px 0 10px;
+  margin: 7px 0 15px;
   color: gray;
 }
-.icons i{
+.icons i, .add-deal i{
     font-size: 17px;
+    cursor: pointer;
 }
 .justify-between{
     display: flex;
     justify-content: space-between;
+}
+.arrow-icon{
+    background-color: #142752;
+    color: white;
+    border-radius: 50%;
+}
+.valign-wrapper{
+  height: 100%;
+}
+.valign-wrapper div{
+  width: 100%;
+}
+.add-deal{
+  justify-content: center;
+}
+.add-deal i{
+  background-color: #4289FB;
+  border-radius: 50%;
+  color: white;
+  margin-right: 7px;
 }
