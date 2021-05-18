@@ -1,0 +1,22 @@
+.icons {
+}
+.title {
+  font-size: 17px;
+  font-weight: 600;
+  margin: 0;
+}
+.padding-20 {
+  padding: 20px;
+}
+.description {
+  font-size: 16px;
+  margin: 7px 0 10px;
+  color: gray;
+}
+.icons i{
+    font-size: 17px;
+}
+.justify-between{
+    display: flex;
+    justify-content: space-between;
+}
